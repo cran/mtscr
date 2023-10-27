@@ -1,7 +1,7 @@
 Package: mtscr
 Type: Package
 Title: Multidimensional Top Scoring for Creativity Research
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: c(
     person(
       "Jakub", "Jędrusiak",
@@ -54,7 +54,7 @@ Suggests: shiny, covr, datamods, DT, roxygen2, shinyWidgets, testthat
         (>= 3.0.0), withr, writexl
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2023-08-15 12:46:27 UTC; jakub
+Packaged: 2023-10-27 10:25:44 UTC; jakub
 Author: Jakub Jędrusiak [aut, cre, cph]
     (<https://orcid.org/0000-0002-6481-8210>, University of Wrocław),
   Boris Forthmann [aut, rev] (<https://orcid.org/0000-0001-9755-7304>,
@@ -65,4 +65,4 @@ Author: Jakub Jędrusiak [aut, cre, cph]
     University of Wrocław)
 Maintainer: Jakub Jędrusiak <kuba23031999@gmail.com>
 Repository: CRAN
-Date/Publication: 2023-08-16 06:52:34 UTC
+Date/Publication: 2023-10-27 14:00:02 UTC

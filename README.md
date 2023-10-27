@@ -9,8 +9,7 @@
 [![R-CMD-check](https://github.com/jakub-jedrusiak/mtscr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jakub-jedrusiak/mtscr/actions/workflows/R-CMD-check.yaml)
 [![Lifecycle:
 stable](https://img.shields.io/badge/lifecycle-stable-green.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
-[![CRAN
-status](https://www.r-pkg.org/badges/version/mtscr)](https://CRAN.R-project.org/package=mtscr)
+[![CRAN/METACRAN](https://img.shields.io/cran/v/mtscr)](https://CRAN.R-project.org/package=mtscr)
 <!-- badges: end -->
 
 An R adaptation of Multidimensional Top Scoring method presented by
@@ -85,12 +84,12 @@ estimates.
 ``` r
 mtscr_model(mtscr_creativity, id, item, SemDis_MEAN, top = 1:3) |>
   mtscr_model_summary()
-#> # A tibble: 3 × 9
-#>   model  nobs sigma logLik    AIC    BIC df.residual emp_rel   FDI
-#>   <chr> <int> <dbl>  <dbl>  <dbl>  <dbl>       <int>   <dbl> <dbl>
-#> 1 top1   4585 0.736 -5298. 10657. 10850.        4555   0.877 0.936
-#> 2 top2   4585 0.767 -5472. 11003. 11196.        4555   0.892 0.944
-#> 3 top3   4585 0.825 -5777. 11613. 11806.        4555   0.896 0.947
+#> # A tibble: 3 × 10
+#>   model  nobs sigma logLik    AIC    BIC deviance df.residual emp_rel   FDI
+#>   <chr> <int> <dbl>  <dbl>  <dbl>  <dbl>    <dbl>       <int>   <dbl> <dbl>
+#> 1 top1   4585 0.736 -5298. 10657. 10850.    2383.        4555   0.877 0.936
+#> 2 top2   4585 0.767 -5472. 11003. 11196.    2597.        4555   0.892 0.944
+#> 3 top3   4585 0.825 -5777. 11613. 11806.    3024.        4555   0.896 0.947
 ```
 
 ### Graphical User Interface
