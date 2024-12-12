@@ -5,11 +5,12 @@
 
 <!-- badges: start -->
 
-[![codecov](https://codecov.io/gh/jakub-jedrusiak/mtscr/branch/main/graph/badge.svg?token=N3UGHFK5QN)](https://app.codecov.io/gh/jakub-jedrusiak/mtscr)
-[![R-CMD-check](https://github.com/jakub-jedrusiak/mtscr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jakub-jedrusiak/mtscr/actions/workflows/R-CMD-check.yaml)
 [![Lifecycle:
 stable](https://img.shields.io/badge/lifecycle-stable-green.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
 [![CRAN/METACRAN](https://img.shields.io/cran/v/mtscr)](https://CRAN.R-project.org/package=mtscr)
+[![R-CMD-check](https://github.com/jakub-jedrusiak/mtscr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jakub-jedrusiak/mtscr/actions/workflows/R-CMD-check.yaml)
+[![Codecov test
+coverage](https://codecov.io/gh/jakub-jedrusiak/mtscr/graph/badge.svg)](https://app.codecov.io/gh/jakub-jedrusiak/mtscr)
 <!-- badges: end -->
 
 An R adaptation of Multidimensional Top Scoring method presented by
